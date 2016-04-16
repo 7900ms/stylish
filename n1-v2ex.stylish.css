@@ -1,0 +1,128 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(http://v2ex.com/), regexp(".*://v2ex.com/.*") {
+
+/* n1-v2ex */
+/* v0.0.1 */
+
+body {
+/*   display: none; */
+}
+
+/* 不好的   */
+/* http://www.jianshu.com/p/9d94660a96f1 */
+/* http://www.ifanr.com/645729 */
+/* http://www.leiphone.com/news/201510/p3aVlWU0QL8eespV.html */
+
+  
+/* http://www.ruanyifeng.com/blog/2015/12/safe-job.html */
+/* http://leiphone.blog.techweb.com.cn/archives/9134.html */
+/* http://laorong.blog.techweb.com.cn/archives/92 */
+
+/* 增加缩进  */
+
+  
+
+  
+/* FOR https://v2ex.com/t/271276   */
+
+/* 楼主发言时间 */
+.header .votes {
+/*   margin-left: 200px; */
+  margin-left: 180px;
+  visibility: hidden;
+}
+/* 楼主发言标题 */
+.header h1 {
+  text-align: center;
+/*   margin-left: 50px; */
+  font-size: 1.2em;
+}
+/* 楼主发言 */
+.content .topic_content {
+  padding-left: 40px;
+  text-indent: 0.75cm;
+  
+  font-size: 130%;   /* 主帖的字体 */
+  line-height: 200%;
+}
+/* 楼主附言 */
+.content .subtle {
+  padding-left: 40px;
+}
+/* 按钮 */
+.topic_buttons {
+  text-align: right;
+}
+.topic_buttons #topic_thank{
+  margin-right: 10px;
+}
+.topic_buttons .f11 {
+  display: none;
+}
+
+
+
+/* 总回复数目 */
+#Main > div:nth-child(4) > div:nth-child(1) {
+  padding-left: 70px;
+}
+#Main > div:nth-child(4) > div:nth-child(1) span.gray {
+  font-size: 150%;
+  text-align: right;
+}
+#Main > div:nth-child(4) > div:nth-child(1) span.gray {
+  visibility: hidden;   /* 总回复数目 干脆不要了 */
+}
+
+/* 1条回复 */
+/* 用户名 */
+#Main > div:nth-child(4) strong {
+  font-size: 150%;
+}
+/* 回复时间 */
+#Main > div:nth-child(4) span.small {
+  visibility: hidden;
+}
+/* 1条回复的 padding-left */
+#Main > div:nth-child(4) > div[id^="r_"] {
+  padding-left: 80px;
+}
+/* 1条回复的 padding-top */
+#Main > div:nth-child(4) > div[id^="r_"] > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3){
+  padding-top: 20px;
+}
+/* 1条回复内容的 padding-top */
+.content .reply_content {
+  padding-top: 20px;
+  padding-bottom: 40px;  
+  padding-left: 10px;
+  text-indent: 0.75cm;
+
+  font-size: 110%; /* 回复的字体 */
+}
+
+
+  
+  
+  
+  
+  
+  
+/* FOR https://v2ex.com/ */
+
+#Main .item{
+  padding-left: 40px;
+}
+#Main .fade {
+  padding-left: 20px;
+}
+  
+  
+  
+  
+  
+div#comments-section, div#askmatrix {
+  display: none;
+}
+
+}
