@@ -6,3 +6,21 @@
  * https://movie.douban.com/subject/26637534/ # 一般评分
  * https://movie.douban.com/subject/1292063/ # 好友评分
  */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(https://movie.douban.com/), regexp(".*://movie.douban.com/subject/.*") {
+
+.rating_wrap {
+/*   display: none; */
+  visibility: hidden;
+}
+
+.rating_betterthan {
+  visibility: hidden;
+}
+
+#interest_sectl {
+  border-left-width: 0;
+}
+
+}
