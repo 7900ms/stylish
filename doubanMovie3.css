@@ -1,0 +1,19 @@
+/* 观影兴致保护器
+ * 为了不破坏观影兴致
+ */
+
+/* test page: 
+ * https://movie.douban.com/subject/26637534/ # 短评
+ * https://movie.douban.com/subject/1292063/ #  短评
+ * https://movie.douban.com/subject/1296987/ #  关于电影的问题
+ */
+ 
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(https://movie.douban.com/), regexp(".*://movie.douban.com/subject/.*") {
+
+#askmatrix {
+  display: none;
+/*   visibility: hidden; */
+}
+
+}
